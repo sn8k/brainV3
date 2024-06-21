@@ -1,0 +1,9 @@
+{
+    "verbosity": "INFO",
+    "required_directories": [
+        "./logs",
+        "./data",
+        "./temp_data"
+    ],
+    "plugins_directory": "./plugins"
+}

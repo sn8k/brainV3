@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit File</title>
+</head>
+<body>
+    <h1>Edit File: {{ file_path }}</h1>
+    <form method="POST">
+        <textarea name="file_content" rows="20" cols="80">{{ file_content }}</textarea>
+        <input type="hidden" name="file_path" value="{{ file_path }}">
+        <br>
+        <input type="submit" value="Save">
+    </form>
+</body>
+</html>
